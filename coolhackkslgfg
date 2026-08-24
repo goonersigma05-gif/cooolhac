@@ -7065,5 +7065,4 @@ Library.UpdateThemeList()
 -- local Tab = MainWindow.CreateTab({Name = "Main"})
 -- local Section = Tab.Section({Name = "Settings"})
 -- Section:Toggle({Name = "Example Toggle", Default = false, Callback = function(value) end})
-
-Library.Init()
+-- Library.Init()  -- Call this AFTER creating your UI
